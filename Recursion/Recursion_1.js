@@ -110,5 +110,53 @@
                      fun(3)
                      TC-O(n)
                      SC-O(n)
+
+
+3.Tree => When recursive function is called more then one time then it is called Tree recursion 
+
+        example => function fun(n){
+                    if(n>0){
+                        console.log(n);
+                        fun(n-1);
+                        fun(n-1)
+                    }
+                    TC-O(2^n)
+                    SC-O(n)
+        
+
+4.Indirect => when one function called second function and second function called third function and third function is called first one again 
+             then it make like cycle that is called indirect recuersion
+                example =>   function funA(n){
+                                if(n>0){
+                                    console.log(n);
+                                    funB(n-1)
+                                }
+                            }
+                            funA(20)
+                            function funB(n){
+                                    if(n>0){
+                                        console.log(n);
+                                        funA(n/2)
+                                    }    
+                            }
+                        
+5.Nested => when recuersion function is passed as parameter in recursive call function that is called nested recuersion.4
+            it is recuersion inside recuersion that is called nested recursion
+                    example => function fun(n){
+                                if(n>100){
+                                    return n-10
+                                }else{
+                                    return fun(fun(n+11))
+                                }
+                            }
+                            console.log(fun(95));
+
  * 
  * */ 
+
+                    
+
+
+
+                          
+                            

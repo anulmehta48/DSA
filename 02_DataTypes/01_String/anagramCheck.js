@@ -1,5 +1,5 @@
 
-let str1="ABCD"
+let str1="PRTS"
 let str2="ABCS"
 function anagram(str1,str2){
     for(let i=0;i<str1.length;i++){
@@ -11,4 +11,5 @@ function anagram(str1,str2){
 }
 console.log(anagram(str1,str2));
 
+//
 //

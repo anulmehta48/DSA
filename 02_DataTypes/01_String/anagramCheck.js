@@ -1,4 +1,4 @@
-
+// 
 let str1="PRTS"
 let str2="ABCS"
 function anagram(str1,str2){
@@ -11,5 +11,3 @@ function anagram(str1,str2){
 }
 console.log(anagram(str1,str2));
 
-//
-//

@@ -37,7 +37,7 @@
 
 
 
-let str = "Nitin";
+let str = "LOEKEsh";
 function palidromCheck(str) {
    
   let i = 0;

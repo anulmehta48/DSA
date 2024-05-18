@@ -1,4 +1,7 @@
-// 
+// Anagram => If words letter are same number time appear in both word then both are the anagram
+
+
+
 let str1="PRTS"
 let str2="ABCS"
 function anagram(str1,str2){

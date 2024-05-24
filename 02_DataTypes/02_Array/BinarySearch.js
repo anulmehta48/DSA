@@ -18,6 +18,7 @@
 //   return -1;
 // }
 // console.log(BinarySearch(arr, key));
+//TC-O(logn)
 
 // write Binary search
 // let arr = [10, 20, 30, 40, 45, 50, 60, 70, 72];
@@ -58,7 +59,7 @@
 //   }
 // }
 // console.log(RecBinarySearch(start, end, key));
-
+//TC-O(logn)
 
 
 // let arr=[10,20,30,40,50]

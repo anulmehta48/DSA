@@ -12,12 +12,23 @@
 
 
 //Recursive
-let arr=[2,54,21,8,5,1,63,5,7]
-let n=arr.length-1
-function TotalSum(arr,n){
-  if(n<0){
-    return 0;
-  }
-  return TotalSum(arr,n-1)+arr[n]
-}
-console.log(TotalSum(arr,n));
+// let arr=[2,54,21,8,5,1,63,5,7]
+// let n=arr.length-1
+// function TotalSum(arr,n){
+//   if(n<0){
+//     return 0;
+//   }
+//   return TotalSum(arr,n-1)+arr[n]
+// }
+// console.log(TotalSum(arr,n));
+
+
+// sum of natural number 
+// let n=10
+// function TotalSum(n){
+//   if(n<0){
+//     return 0;
+//   }
+//   return n*(n+1)/2
+// }
+// console.log(TotalSum(n));
